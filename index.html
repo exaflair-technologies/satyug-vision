@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyug Vision</title>
+    <meta http-equiv="refresh" content="10">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid rgba(148, 163, 184, 0.1);
+            border-radius: 12px;
+            padding: 32px;
+            margin-bottom: 24px;
+            backdrop-filter: blur(10px);
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #60a5fa;
+        }
+
+        .section-subtitle {
+            font-size: 14px;
+            color: #94a3b8;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .section-content {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #cbd5e1;
+        }
+
+        .milestone-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            padding: 12px;
+            background: rgba(15, 23, 42, 0.5);
+            border-radius: 8px;
+            border-left: 3px solid #60a5fa;
+        }
+
+        .milestone-label {
+            font-weight: 600;
+            color: #60a5fa;
+            margin-right: 12px;
+            min-width: 120px;
+        }
+
+        .milestone-text {
+            color: #cbd5e1;
+        }
+
+        .journey-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+            font-size: 15px;
+        }
+
+        .journey-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #a78bfa;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+
+        .status-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .status-card {
+            background: rgba(15, 23, 42, 0.7);
+            border: 1px solid rgba(167, 139, 250, 0.3);
+            border-radius: 8px;
+            padding: 16px;
+            text-align: center;
+        }
+
+        .status-card-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: #a78bfa;
+            margin-bottom: 4px;
+        }
+
+        .status-card-label {
+            font-size: 12px;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .refresh-indicator {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            font-size: 12px;
+            color: #64748b;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pulse {
+            width: 6px;
+            height: 6px;
+            background: #10b981;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Satyug</h1>
+        </div>
+
+        <div class="section">
+            <div class="section-title">The Vision</div>
+            <div class="section-content">
+                Souls meditating in pure pleasure. The world self-organizing toward their good.
+                A state of consciousness where existence flows in harmony, where each being moves
+                in perfect alignment with the whole, and the universe bends toward collective flourishing.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">The Milestone Structure</div>
+            <div class="section-subtitle">Mapping the journey from where we are to what we're building</div>
+            <div>
+                <div class="milestone-item">
+                    <div class="milestone-label">Satyug</div>
+                    <div class="milestone-text">The destination: zero. The state where the vision is complete.</div>
+                </div>
+                <div class="milestone-item">
+                    <div class="milestone-label">Countdown</div>
+                    <div class="milestone-text">We count down from negative infinity, each step closer to zero, to Satyug.</div>
+                </div>
+                <div class="milestone-item">
+                    <div class="milestone-label">The Path</div>
+                    <div class="milestone-text">Every action, meditation, and insight moves the needle forward toward our goal.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">The Journey So Far</div>
+            <div class="section-subtitle">Evidence that this vision is building itself</div>
+            <div>
+                <div class="journey-item">
+                    <div class="journey-dot"></div>
+                    <div>This meditation: holding the vision clear in consciousness</div>
+                </div>
+                <div class="journey-item">
+                    <div class="journey-dot"></div>
+                    <div>This 48-hour sprint: executing with precision and purpose</div>
+                </div>
+                <div class="journey-item">
+                    <div class="journey-dot"></div>
+                    <div>Black Piston: proof that agentic systems can build themselves toward a vision</div>
+                </div>
+                <div class="journey-item">
+                    <div class="journey-dot"></div>
+                    <div>This dashboard: Satyug seeing itself unfold in real-time</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Status</div>
+            <div class="section-subtitle">Live progress as milestones complete</div>
+            <div class="status-section">
+                <div class="status-card">
+                    <div class="status-card-value">✓</div>
+                    <div class="status-card-label">Vision Defined</div>
+                </div>
+                <div class="status-card">
+                    <div class="status-card-value">✓</div>
+                    <div class="status-card-label">Journey Begun</div>
+                </div>
+                <div class="status-card">
+                    <div class="status-card-value">✓</div>
+                    <div class="status-card-label">System Live</div>
+                </div>
+                <div class="status-card">
+                    <div class="status-card-value">→</div>
+                    <div class="status-card-label">Accelerating</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="refresh-indicator">
+        <div class="pulse"></div>
+        <span>Live • Refreshing every 10s</span>
+    </div>
+</body>
+</html>
